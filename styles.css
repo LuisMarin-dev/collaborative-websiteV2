@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.image-title-container {
+    width: 100%;
+    height: 500px !important;
+    display: flex !important;
+    position: relative !important;
+    z-index: -1;
+}
+
+.caracas-text {
+    position: absolute !important;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999999;
+}
+
+.sections-container {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    border: solid 2px red;
+}
+
+.first-section-container {
+    height: 400px;
+    display: flex !important;
+    flex-direction: row;
+}
+
+.section-header {
+    font-weight: 600;
+}
+
+.heisenberg-img-container {
+    height: 80%;
+    margin-top: 40px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    /* border: solid greenyellow 2px; */
+}
+
+.heisenberg-img-container img {
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+    GITHUB PROVIDED COMMANDS TO UPDATE LOCAL CLONE AFTER DEFAULT BRANCH NAME CHANGE
+
+git branch -m master main
+git fetch origin
+git branch -u origin/main main
+git remote set-head origin -a
+ */
