@@ -8,15 +8,36 @@ body {
     height: 500px !important;
     display: flex !important;
     position: relative !important;
-    z-index: -1;
 }
 
-.caracas-text {
+.caracas-text1 {
+    width: 95%;
+    height: auto;
     position: absolute !important;
-    top: 50px;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 999999;
+    font-size: 100px;
+    font-weight: 500;
+    text-align: center;
+    background-color: white;
+}
+
+.caracas-text2 {
+    width: 95%;
+    height: auto;
+    position: absolute !important;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    font-weight: 500;
+    text-align: center;
+    background-color: white;
+}
+
+.caracas-text2 p {
+    margin: 0;
 }
 
 .sections-container {
