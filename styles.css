@@ -100,10 +100,25 @@ body {
     border-radius: 50%;
 }
 
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
 
+.card {
+    margin-right: 10px;
+}
 
+.card-title {
+    color: rgb(83, 83, 230);
+}
 
-
+.card img {
+    width: 700;
+    height: 400;
+}
 
 
 
